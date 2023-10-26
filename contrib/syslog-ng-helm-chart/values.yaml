@@ -75,6 +75,7 @@ securityContext: {}
 # syslog-ng have fixed ports tcp 601  and udp 514
 service:
   type: ClusterIP
+  annotations: {}
   # use externalip for a pre routede exter al ip.
   # TO-DO: LoadBalancer
   # type: externalip
